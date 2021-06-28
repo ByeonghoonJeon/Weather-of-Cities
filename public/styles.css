@@ -1,0 +1,358 @@
+html {
+  font-size: 1vw;
+}
+h1 {
+  font-size: 4em;
+}
+h5 {
+  font-size: 2em;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: orangered;
+    background-color:#f7fd04;
+}
+
+.section1 {
+  background-image: url(img/adrien-siami-iB3rDL7FNcI-unsplash.jpg);
+  background-size: cover;
+  padding-left: 0;
+  background-position: right 80% bottom 50%;
+}
+.emptySpace-lg {
+  height: 150px;
+}
+.emptySpace-sm {
+  height: 75px;
+}
+
+.emptySpace-bt {
+    height: 75px;
+  }
+
+.yellowBox {
+  border: solid;
+  border-width: 10px;
+  border-color: #f7fd04;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.header {
+  color: #f7fd04;
+  font-family: "Staatliches", cursive;
+  margin: 0;
+}
+.explain {
+  color: white;
+  font-family: "Staatliches", cursive;
+}
+#cityInput {
+  font-size: 1.5em;
+  box-sizing: content-box;
+  height: 5vh;
+  border-width: 2px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goButton {
+  border: solid;
+  border-width: 5px;
+  border-color: #f7fd04;
+  background-color: transparent;
+  color: #f7fd04;
+  height: inherit;
+  font-size: 1.5em;
+  height: 5vh;
+  display: inline-flex;
+  align-items: center;
+  box-sizing: content-box;
+  justify-content: center;
+}
+
+.goButton:hover {
+  background-color: #f7fd04;
+  color: orangered;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  font-size: 1.6em;
+}
+
+.fab {
+    color: white;
+    font-size: 2rem;
+}
+
+.section2 {
+  background-color: #293B5F;
+
+
+}
+
+.fas {
+    font-size: 5rem;
+    color:orangered;
+    margin-bottom: 2rem;
+}
+
+.bottomText1, .bottomText2 {
+    color: white;
+    font-family: "Staatliches", cursive;
+
+}
+
+.customshadow {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.bottomEnd {background-color: grey; box-sizing: content-box;}
+
+.fab {
+    font-size: 2rem;
+}
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 5.5em;
+  }
+
+  h3 {
+      font-size: 3em;
+  }
+
+  .explain {
+    font-size: 2.7em;
+  }
+  #cityInput {
+    font-size: 2em;
+    height: 3vh!important;
+    vertical-align: middle;
+  }
+  .goButton {
+    font-size: 2em;
+    height: 3vh!important;
+    margin-top: 2vh;
+    display: inline-flex;
+    align-items: center;
+  }
+  .goButton:hover {
+    background-color: #f7fd04;
+    color: orangered;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 2.1em;
+  }
+  .fas {
+    font-size: 8rem!important;
+    color:orangered;
+    margin-bottom: 3rem!important;
+    
+  }
+
+  .emptySpace-bt {
+      height: 30px!important;
+  }
+
+.bottomText1 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+.bottomText2 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 2.8rem;
+  }
+  .fab {
+    font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 730px) {
+  h1 {
+    font-size: 4.5em;
+  }
+
+  h3 {
+    font-size: 3em;
+}
+
+  .explain {
+    font-size: 2em;
+  }
+  #cityInput {
+    font-size: 1.5em;
+    height: 3vh!important;
+    vertical-align: middle;
+  }
+  .goButton {
+    font-size: 1.5em;
+    height: 3vh!important;
+    margin-top: 2vh;
+    display: inline-flex;
+    align-items: center;
+  }
+  .goButton:hover {
+    background-color: #f7fd04;
+    color: orangered;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 1.7em;
+  }
+  .yellowBox {
+    border: solid;
+    border-width: 10px;
+    border-color: #f7fd04;
+    border-radius: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .fas {
+    font-size: 9rem!important;
+    color:orangered;
+    margin-bottom: 2rem;
+  }
+
+.bottomText1 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+
+.bottomText2 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 3rem;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 7em;
+  }
+  h3 {
+    font-size: 4em;
+}
+
+  .explain {
+    font-size: 4em;
+  }
+  #cityInput {
+    font-size: 3em;
+    height: 4vh!important;
+    vertical-align: middle;
+  }
+  .goButton {
+    font-size: 3em;
+    height: 4vh!important;
+    margin-top: 5vh!important;
+    display: inline-flex;
+    align-items: center;
+  }
+  .goButton:hover {
+    background-color: #f7fd04;
+    color: orangered;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-size: 3.1em;
+  }
+  .fas {
+    font-size: 9rem!important;
+    color:orangered;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+
+.bottomText1 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+  }
+
+.bottomText2 {
+    color: white;
+    font-family: "Staatliches", cursive;
+    font-size: 3rem;
+  }
+  .fab {
+      font-size: 4rem;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+      font-size: 7em;
+    }
+    h3 {
+      font-size: 4em;
+  }
+  
+    .explain {
+      font-size: 4em;
+    }
+    #cityInput {
+      font-size: 3em;
+      height: 3vh!important;
+      vertical-align: middle;
+    }
+    .goButton {
+      font-size: 3em;
+      height: 3vh!important;
+      margin-top: 3vh!important;
+      display: inline-flex;
+      align-items: center;
+    }
+    .goButton:hover {
+      background-color: #f7fd04;
+      color: orangered;
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      font-size: 3.1em;
+    }
+    .fas {
+        font-size: 14rem!important;
+        color:orangered;
+        margin-top: 5rem;
+      }
+    
+    .bottomText1 {
+        color: white;
+        font-family: "Staatliches", cursive;
+        font-size: 3rem;
+        margin-bottom: 2rem!important;
+        margin-top:2rem!important;
+      }
+    
+    .bottomText2 {
+        color: white;
+        font-family: "Staatliches", cursive;
+        font-size: 4rem;
+        margin-bottom: 40px;
+      }
+
+    .fab {
+        font-size: 4rem;
+    }
+  }
+
+#result-data{
+    font-family: "Staatliches", cursive;
+    margin-top: 5vh!important;
+    
+}
+
